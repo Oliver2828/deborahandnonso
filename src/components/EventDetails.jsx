@@ -7,8 +7,8 @@ const EventDetails = () => {
     church: "/images/church-wedding.jpg", // Replace with actual path
     reception: "/images/reception-venue.jpg", // Replace with actual path
     // Fallback placeholder service (you can use these temporarily)
-    traditionalPlaceholder: "https://images.unsplash.com/photo-1519741497674-611481863552?w=500&h=300&fit=crop", // Traditional ceremony
-    churchPlaceholder: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=500&h=300&fit=crop", // Church interior
+    traditionalPlaceholder: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=500&h=300&fit=crop", // Church interior (now for traditional)
+    churchPlaceholder: "https://images.unsplash.com/photo-1519741497674-611481863552?w=500&h=300&fit=crop", // Traditional ceremony (now for church)
     receptionPlaceholder: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=500&h=300&fit=crop" // Reception venue
   };
 
