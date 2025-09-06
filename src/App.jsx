@@ -1,0 +1,27 @@
+// App.js
+import React from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import OurStory from './components/OurStory';
+import Gallery from './components/Gallery';
+import Countdown from './components/Countdown';
+import EventDetails from './components/EventDetails';
+import RSVP from './components/RSVP';
+import Footer from './components/Footer';
+
+function App() {
+  return (
+    <div className="App font-sans">
+      <Header />
+      <Hero />
+      <OurStory />
+      <Gallery />
+      <Countdown />
+      <EventDetails />
+      <RSVP />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
