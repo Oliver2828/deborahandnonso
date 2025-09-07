@@ -20,18 +20,21 @@ const OurStory = () => {
           </div>
           
           <div className="w-full md:w-1/2">
-            <h3 className="text-2xl font-serif text-amber-600 mb-6">Deborah's Story</h3>
+            <h3 className="text-2xl font-serif text-amber-600 mb-6">Debby's Story</h3>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              We met in 2021 at Westfield. We just started off as normal colleagues in the same department with our boss and just casually gists once in a while. We started getting close and gisting more as our friendship grew stronger.
+              We met in 2021 at a company called Westfield in Lagos. We were colleagues in the same department and spoke occasionally. As time went by, we began to have interesting conversation and became work buddies.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              I resigned and left the company and relocated back to Abuja while Nonso stayed back in the company. We still maintained contact and spoke once in a while and with time we started talking more and spending more hours on calls and enjoying our time together and I enjoyed talking to him.
+              Nonso was a competent team mate and he assisted me when I needed any help with work. At the end of 2021, I resigned and moved to Abuja, while Nonso was still at Westfield. Despite being in Abuja, Nonso frequently called to ask about my welfare and he would subtly tell me how much he missed me.
+            </p>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+              We spoke regularly and our friendship blossom. On my birthday in 2022, Nonso expressed his admiration towards me and he stated his intentions of getting married to me. I didn't see the possibility of a relationship as distance was a major obstacle.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              On my birthday in 2022, he made his feelings known to me which came as a surprise as we were just friends then and the distance was also a huge barrier but as fate will have it, we found our way to each other and spoke more and we decided to give it a try in 2023 and in 2024 he proposed and I said YES and here we are getting married.
+              Nevertheless, Nonso was very optimistic and consistent about his intention and he wasn't going to despair. However, as destiny prevailed, our connection deepened and the possibility of a relationship became clearer.
             </p>
             <p className="text-gray-700 mt-4 leading-relaxed italic">
-              It's been a roller coaster and I cannot wait to see what the future holds.
+              In 2023, I decided to give the relationship a trial and then I realized it had the potential of developing into a lasting and fulfilling union. At the end of 2024, Nonso proposed and now we are getting married. It has been a beautiful experience and I'm eager to see the next phase of our lives.
             </p>
           </div>
         </div>

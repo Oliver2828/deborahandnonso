@@ -6,6 +6,7 @@ import OurStory from './components/OurStory';
 import Gallery from './components/Gallery';
 import Countdown from './components/Countdown';
 import EventDetails from './components/EventDetails';
+import Registry from './components/Registry';
 import RSVP from './components/RSVP';
 import Footer from './components/Footer';
 
@@ -18,6 +19,7 @@ function App() {
       <Gallery />
       <Countdown />
       <EventDetails />
+      <Registry/>
       <RSVP />
       <Footer />
     </div>

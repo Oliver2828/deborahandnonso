@@ -50,7 +50,7 @@ const EventDetails = () => {
                   <svg className="w-5 h-5 text-amber-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
                   </svg>
-                  Color of the day: White & Gold
+                  Color of the day: Purple , Lilac , Aqua Blue.
                 </p>
               </div>
             </div>
@@ -97,7 +97,7 @@ const EventDetails = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
-                  <span>The RCCG Holy Ghost Center Parish, No 14, Alexandra Crescent, Behind drumstix, Wuse 2, Abuja.</span>
+                  <span> RCCG Holy Ghost Center Parish, No 14, Alexandra Crescent, Behind drumstix, Wuse 2, Abuja.</span>
                 </p>
               </div>
             </div>
@@ -150,7 +150,7 @@ const EventDetails = () => {
                   <svg className="w-5 h-5 text-amber-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
                   </svg>
-                  Colour of the day: White & Gold
+                  Colour of the day: Purple , Lilac , Aqua Blue.
                 </p>
               </div>
             </div>
