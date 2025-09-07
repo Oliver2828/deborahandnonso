@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-white pt-16">
       {/* Gold decorative elements */}
+      {/* fgh */}
       <div className="absolute top-20 right-20 w-40 h-40 bg-amber-100 rounded-full opacity-30"></div>
       <div className="absolute bottom-20 left-20 w-32 h-32 bg-amber-100 rounded-full opacity-30"></div>
       
