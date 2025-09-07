@@ -1,6 +1,6 @@
 // components/OurStory.js
 import React from 'react';
-import deborahImg from '../assets/DeborahNonso2025!.jpg';
+import deborahImg from '../assets/Deborah1.jpg';
 import nonsoImg from '../assets/DeborahNonso2025!6.jpg';
 
 const OurStory = () => {
@@ -52,7 +52,7 @@ const OurStory = () => {
               We met in 2021 in Westfield Lagos Nigeria. Of course I was attracted at first sight but started liking Debby when we started talking as fate placed us in the same department. At first it was works discussions and progressed to other conversations we used to have once in a while and our friendship continue to blossomed.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              She resigned and relocated back to Abuja dec 2021 but we still talked once in a while. First quarter of 2022 had us talking more and with this my feelings for her got deeper and I finally made this feelings known to her on her birthday.
+              She resigned and relocated back to Abuja december 2021 but we still talked once in a while. First quarter of 2022 had us talking more and with this my feelings for her got deeper and I finally made this feelings known to her on her birthday.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Lolz, of course she wasn't expecting that cause of the distance and what have you. We kept on talking till 2023 when we decided to give this a chance.
