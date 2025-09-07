@@ -11,7 +11,7 @@ const Header = () => {
           <div className="text-2xl font-serif text-amber-600">D&N</div>
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
-              {['Home', 'Our Story', 'Gallery', 'When & Where', 'RSVP'].map((item) => {
+              {['Home', 'When & Where', 'Our Story', 'Gallery',  'RSVP'].map((item) => {
                   let href = `#${item.toLowerCase().replace(' ', '-')}`;
                   if (item === 'When & Where') href = '#when-where';
                   return (
@@ -41,7 +41,7 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 py-4 border-t border-gray-100">
             <ul className="flex flex-col space-y-4">
-              {['Home', 'Our Story', 'Gallery', 'When & Where', 'RSVP'].map((item) => {
+              {['Home', 'When & Where', 'Our Story', 'Gallery',  'RSVP'].map((item) => {
                 let href = `#${item.toLowerCase().replace(' ', '-')}`;
                 if (item === 'When & Where') href = '#when-where';
                 return (
