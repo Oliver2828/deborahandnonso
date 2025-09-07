@@ -34,7 +34,7 @@ const Registry = () => {
                   <p className="text-amber-600 font-medium text-lg mb-4">UBA</p>
                   <p className="text-gray-700 mb-2">Account Number:</p>
                   <p className="text-amber-600 font-medium text-lg mb-4">2141532143</p>
-                  <p className="text-gray-700 mb-2">Account Name:</p>
+                  {/* <p className="text-gray-700 mb-2">Account Name:</p> */}
                   {/* <p className="text-amber-600 font-medium">Deborah Akin-Benson</p> */}
                 </div>
               </div>
@@ -54,7 +54,7 @@ const Registry = () => {
                   <p className="text-amber-600 font-medium text-lg mb-4">UBA</p>
                   <p className="text-gray-700 mb-2">Account Number:</p>
                   <p className="text-amber-600 font-medium text-lg mb-4">2235966375</p>
-                  <p className="text-gray-700 mb-2">Account Name:</p>
+                  {/* <p className="text-gray-700 mb-2">Account Name:</p> */}
                   {/* <p className="text-amber-600 font-medium">Chinonso Ohajianya</p> */}
                 </div>
               </div>
