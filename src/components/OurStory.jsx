@@ -1,7 +1,7 @@
 // components/OurStory.js
 import React from 'react';
-import deborahImg from '../assets/Deborah1.jpg';
-import nonsoImg from '../assets/Deborah44.jpg';
+import deborahImg from '../assets/DeborahNonso2025!6.jpg';
+import nonsoImg from '../assets/DeborahNonso2025!5.jpg';
 
 const OurStory = () => {
   return (
