@@ -1,22 +1,22 @@
 // components/Gallery.js
 import React from 'react';
-import img1 from '../assets/DeborahNonso2025!9.jpg';
+// import img1 from '../assets/DeborahNonso2025!9.jpg';
 import img2 from '../assets/DeborahNonso2025!77.jpg';
-import img3 from '../assets/DeborahNonso20251.jpg';
+// import img3 from '../assets/DeborahNonso20251.jpg';
 // import img4 from '../assets/DeborahNonso2025!6.jpg';
 // import img5 from '../assets/DeborahNonso2025!5.jpg';
 // import img6 from '../assets/DeborahNonso2025!4.jpg';
-import img7 from '../assets/DSC06640.jpg';
-import img8 from '../assets/DSC06755.jpg';
+// import img7 from '../assets/DSC06640.jpg';
+// import img8 from '../assets/DSC06755.jpg';
 // import img12 from '../assets/Deborah999.jpg';
-import img9 from '../assets/Deborah2.jpg';
-import img10 from '../assets/Deborah44.jpg';
-import img11 from '../assets/Deborah666.jpg';
+import img3 from '../assets/Deborah2.jpg';
+import img7 from '../assets/Deborah44.jpg';
+import img8 from '../assets/Deborah1.jpg';
 // import img12 from '../assets/Deborah999.jpg';
 
 const Gallery = () => {
   // All 12 images array
-  const allImages = [img1, img2, img3,   img7, img8,  img9, img10, img11, ];
+  const allImages = [ img2, img3,   img7, img8,   ];
 
   return (
     <section id="gallery" className="py-20 bg-white">
