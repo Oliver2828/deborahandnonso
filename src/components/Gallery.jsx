@@ -1,7 +1,7 @@
 // components/Gallery.js
 import React from 'react';
 // import img1 from '../assets/DeborahNonso2025!9.jpg';
-import img2 from '../assets/DeborahNonso2025!77.jpg';
+import img2 from '../assets/DeborahNonso20251.jpg';
 // import img3 from '../assets/DeborahNonso20251.jpg';
 // import img4 from '../assets/DeborahNonso2025!6.jpg';
 // import img5 from '../assets/DeborahNonso2025!5.jpg';
