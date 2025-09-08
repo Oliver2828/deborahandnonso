@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import TradImage from "../assets/trad11.jpg"; // replace path if different
 
 const EventDetails = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -15,13 +16,11 @@ const EventDetails = () => {
   };
 
   const images = {
-    traditional: "/src/assets/trad11.jpg",
-    church: "/images/church-wedding.jpg",
-    reception: "/images/reception-venue.jpg",
-    churchPlaceholder:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?w=500&h=300&fit=crop",
-    receptionPlaceholder:
-      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=500&h=300&fit=crop",
+    traditional: TradImage, // local image
+    church:
+      "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop",
+    reception:
+      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&h=400&fit=crop",
   };
 
   return (
@@ -38,7 +37,6 @@ const EventDetails = () => {
         <div className="max-w-4xl mx-auto space-y-16">
           {/* Traditional Ceremony */}
           <div className="flex flex-col md:flex-row gap-12 items-center bg-amber-50 p-8 rounded-lg border border-amber-100 shadow-lg">
-            {/* Details */}
             <div className="md:w-1/2 space-y-4">
               <h3 className="text-2xl font-serif text-amber-700 flex items-center">
                 <span className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center mr-4">
@@ -52,13 +50,12 @@ const EventDetails = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth={2}
-                      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16"
+                      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
                     />
                   </svg>
                 </span>
                 Traditional Marriage Ceremony
               </h3>
-
               <p className="text-gray-700 flex items-center">
                 <svg
                   className="w-5 h-5 text-amber-600 mr-3"
@@ -70,14 +67,11 @@ const EventDetails = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M8 7V3m8 4V3m-9 8h10M5 21h14"
+                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                   />
                 </svg>
-                <span className="font-medium">
-                  17th October 2025 at 02:00pm
-                </span>
+                <span className="font-medium">17th October 2025 at 02:00pm</span>
               </p>
-
               <p className="text-gray-700 flex items-start">
                 <svg
                   className="w-5 h-5 text-amber-600 mr-3 mt-0.5 flex-shrink-0"
@@ -89,12 +83,17 @@ const EventDetails = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
                 House 25 Silver Street, H&J Estate, Galadimawa District, Abuja
               </p>
-
               <p className="text-amber-700 font-medium flex items-center">
                 <svg
                   className="w-5 h-5 text-amber-600 mr-3"
@@ -106,24 +105,23 @@ const EventDetails = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M7 21a4 4 0 01-4-4V5h8v12a4 4 0 01-4 4z"
+                    d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"
                   />
                 </svg>
                 Color of the day: White & Gold
               </p>
             </div>
 
-            {/* Image */}
             <div className="md:w-1/2 relative overflow-hidden rounded-lg shadow-md">
               <img
                 src={images.traditional}
                 alt="Traditional Venue"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
                 onClick={() => openLightbox(images.traditional)}
-                onError={(e) => {
-                  e.target.src =
-                    "https://via.placeholder.com/500x300?text=Traditional+Ceremony";
-                }}
+                onError={(e) =>
+                  (e.target.src =
+                    "https://via.placeholder.com/600x400/FFFBEB/7C2D12?text=Traditional+Ceremony")
+                }
               />
               <div className="absolute inset-0 bg-gradient-to-t from-amber-900/20 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-white">
@@ -135,7 +133,6 @@ const EventDetails = () => {
 
           {/* Wedding Ceremony */}
           <div className="flex flex-col md:flex-row-reverse gap-12 items-center bg-amber-50 p-8 rounded-lg border border-amber-100 shadow-lg">
-            {/* Details */}
             <div className="md:w-1/2 space-y-4">
               <h3 className="text-2xl font-serif text-amber-700 flex items-center">
                 <span className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center mr-4">
@@ -149,13 +146,12 @@ const EventDetails = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth={2}
-                      d="M19 21V5H5v16l7-3 7 3z"
+                      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l7-3 7 3z"
                     />
                   </svg>
                 </span>
                 Solemnization of Wedding
               </h3>
-
               <p className="text-gray-700 flex items-center">
                 <svg
                   className="w-5 h-5 text-amber-600 mr-3"
@@ -167,12 +163,11 @@ const EventDetails = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M8 7V3m8 4V3m-9 8h10M5 21h14"
+                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                   />
                 </svg>
                 18th October 2025 at 11:00am
               </p>
-
               <p className="text-gray-700 flex items-start">
                 <svg
                   className="w-5 h-5 text-amber-600 mr-3 mt-0.5 flex-shrink-0"
@@ -184,23 +179,28 @@ const EventDetails = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
                 RCCG Holy Ghost Center Parish, Wuse 2, Abuja
               </p>
             </div>
 
-            {/* Image */}
             <div className="md:w-1/2 relative overflow-hidden rounded-lg shadow-md">
               <img
-                src={images.churchPlaceholder}
+                src={images.church}
                 alt="Church Venue"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
-                onError={(e) => {
-                  e.target.src =
-                    "https://via.placeholder.com/500x300?text=Church+Venue";
-                }}
+                onError={(e) =>
+                  (e.target.src =
+                    "https://via.placeholder.com/600x400/FFFBEB/7C2D12?text=Church+Venue")
+                }
               />
               <div className="absolute inset-0 bg-gradient-to-t from-amber-900/20 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-white">
@@ -212,7 +212,6 @@ const EventDetails = () => {
 
           {/* Wedding Reception */}
           <div className="flex flex-col md:flex-row gap-12 items-center bg-amber-50 p-8 rounded-lg border border-amber-100 shadow-lg">
-            {/* Details */}
             <div className="md:w-1/2 space-y-4">
               <h3 className="text-2xl font-serif text-amber-700 flex items-center">
                 <span className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center mr-4">
@@ -226,13 +225,12 @@ const EventDetails = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth={2}
-                      d="M14.828 14.828a4 4 0 01-5.656 0M9 10h6M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
                 </span>
                 Wedding Reception
               </h3>
-
               <p className="text-gray-700 flex items-center">
                 <svg
                   className="w-5 h-5 text-amber-600 mr-3"
@@ -244,12 +242,11 @@ const EventDetails = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0"
+                    d="M12 8v4l3 3m-6 6a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
                 Follows immediately after ceremony
               </p>
-
               <p className="text-gray-700 flex items-start">
                 <svg
                   className="w-5 h-5 text-amber-600 mr-3 mt-0.5 flex-shrink-0"
@@ -261,12 +258,17 @@ const EventDetails = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
                 Rabby Recreation Park, Dape District, Abuja
               </p>
-
               <p className="text-amber-700 font-medium flex items-center">
                 <svg
                   className="w-5 h-5 text-amber-600 mr-3"
@@ -278,23 +280,22 @@ const EventDetails = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M7 21a4 4 0 01-4-4V5h8v12a4 4 0 01-4 4z"
+                    d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"
                   />
                 </svg>
                 Colour of the day: Purple, Lilac, Aqua Blue
               </p>
             </div>
 
-            {/* Image */}
             <div className="md:w-1/2 relative overflow-hidden rounded-lg shadow-md">
               <img
-                src={images.receptionPlaceholder}
+                src={images.reception}
                 alt="Reception Venue"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
-                onError={(e) => {
-                  e.target.src =
-                    "https://via.placeholder.com/500x300?text=Reception+Venue";
-                }}
+                onError={(e) =>
+                  (e.target.src =
+                    "https://via.placeholder.com/600x400/FFFBEB/7C2D12?text=Reception+Venue")
+                }
               />
               <div className="absolute inset-0 bg-gradient-to-t from-amber-900/20 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-white">
