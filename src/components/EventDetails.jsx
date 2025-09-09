@@ -92,7 +92,7 @@ const EventDetails = () => {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                House 25 Silver Street, H&J Estate, Galadimawa District, Abuja
+                House 25 Silver Street, H&J Estate,Behind Suncity Estate, Galadimawa District,FCT, Abuja
               </p>
               <p className="text-amber-700 font-medium flex items-center">
                 <svg
@@ -188,7 +188,7 @@ const EventDetails = () => {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                RCCG Holy Ghost Center Parish, Wuse 2, Abuja
+                RCCG Holy Ghost Center Parish, No 14,Alexandra Crescent, Behind drumstix, Wuse 2, Abuja
               </p>
             </div>
 
@@ -267,7 +267,7 @@ const EventDetails = () => {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                Rabby Recreation Park, Dape District, Abuja
+                Rabby Recreation Park, 1794 Co4, Dape District (Beside Paradise Estate) Life Camp, FCT, Abuja, Nigeria.
               </p>
               <p className="text-amber-700 font-medium flex items-center">
                 <svg
